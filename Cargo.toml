@@ -1,10 +1,17 @@
 [package]
-name = "Rust Bytes Challenge - Issue #64"
+name = "Rust-Bytes-Challenge-Issue-64-Solution-Silen1t"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-chrono = {version = "0.4.41", default-features = false, features = ["clock", "oldtime", "serde"]}
+chrono = { version = "0.4.41", default-features = false, features = [
+    "clock",
+    "oldtime",
+    "serde",
+] }
 rayon = "1.10.0"
-serde = {version = "1.0.219", default-features = false, features = ["serde_derive", "derive"]}
+serde = { version = "1.0.219", default-features = false, features = [
+    "serde_derive",
+    "derive",
+] }
 sonic-rs = "0.5.1"
